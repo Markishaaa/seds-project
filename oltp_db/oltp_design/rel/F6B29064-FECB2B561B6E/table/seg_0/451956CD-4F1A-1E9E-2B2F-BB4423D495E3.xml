@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="451956CD-4F1A-1E9E-2B2F-BB4423D495E3" name="MTP_SRC_PROCEDURE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MTP_SRC_PROCEDURE</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:51 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROCEDURE_ID" id="47ABAE37-17D2-2CB8-B520-82DB828BDB97">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_PROCEDURE</sourceObjSchema>
+<sourceObjName>PROCEDURE_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,*,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROCEDURE_NAME" id="65880AEF-5B35-D726-6D7D-10B77BC11736">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_PROCEDURE</sourceObjSchema>
+<sourceObjName>PROCEDURE_NAME</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROCEDURE_COST" id="41C7653D-F88F-873C-8ED0-666FC3D312D4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_PROCEDURE</sourceObjSchema>
+<sourceObjName>PROCEDURE_COST</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78BA96A6-5493-DF13-FA36-32FE9F629221" schemaObject="4F8B652B-9E79-1B06-164A-667E9A8E4D71" name="MTP_SRC_PROCEDURE_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008759</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47ABAE37-17D2-2CB8-B520-82DB828BDB97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

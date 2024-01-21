@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18B01BF0-5BFC-DB47-DD1C-17ABEC8AB76C" name="MTP_SRC_DEPARTMENT">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MTP_SRC_DEPARTMENT</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:51 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPT_ID" id="B6879070-247C-C9B7-3360-C4ABD47E17A5">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_DEPARTMENT</sourceObjSchema>
+<sourceObjName>DEPT_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_NAME" id="C72314C8-FB2C-C577-1DA2-3CCE868A96BD">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_DEPARTMENT</sourceObjSchema>
+<sourceObjName>DEPT_NAME</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E985FDF-7FCC-DE09-5EE4-DF84EDEDA4DB" schemaObject="4F8B652B-9E79-1B06-164A-667E9A8E4D71" name="MTP_SRC_DEPARTMENT_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008735</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6879070-247C-C9B7-3360-C4ABD47E17A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

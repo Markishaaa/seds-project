@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_DW_PROCEDURE" directorySegmentName="seg_0" id="1FFF8C28-CBE2-85C3-75DE-16FA5E45FE59">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AD6FAC45-446E-4E02-0880-3D8117876B06</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROCEDURE_ID" id="1F88ED1C-1CB6-21DC-E0FA-84BE3B73E659">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCEDURE_COST" id="5E460032-C72A-F3AE-FEE5-5B9A94B13D22">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCEDURE_NAME" id="5FBBC7F3-2813-5FC2-4E46-FB7E0A7D8B50">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_DW_PROCEDURE_PK" id="AC0FBF79-8D58-1F05-99D4-8D90B803FB9F">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<segment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<indexSegment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

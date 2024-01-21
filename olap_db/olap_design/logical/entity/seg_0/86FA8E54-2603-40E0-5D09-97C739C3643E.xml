@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86FA8E54-2603-40E0-5D09-97C739C3643E" name="MTP DW FACILITY">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>4BE4ABD1-9322-24F7-28C3-0341149C91D9</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FACILITY ID" id="A1C5040E-C8E8-C0F9-A01A-BE06814F2941">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>9091C0FA-E551-CA24-2AAB-138518206BEE</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FACILITY NAME" id="641A1F18-7B9F-FA4E-DA7D-FD2B7EC12D32">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>5E09BE53-8D84-200F-56DA-C3B4E8799CE4</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FACILITY LOCATION" id="9524A1B3-5BE5-E60B-3247-C815A3F7E20B">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>7812AEF8-AD5C-CA98-45D1-B828BBB66441</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY ID" id="9E5BB117-E474-F39A-15B7-F9A7CDDAE113">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>1CBD3906-3379-1C76-3923-0D569CCB22AD</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D93D9B55-4DAB-61E1-94C5-56036F4ECA68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35701EFD-4079-D975-4B8D-F7B93BB60846" name="MTP DW FACILITY PK">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>EF452161-5C49-BE60-73EB-0AD799969140</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1C5040E-C8E8-C0F9-A01A-BE06814F2941</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

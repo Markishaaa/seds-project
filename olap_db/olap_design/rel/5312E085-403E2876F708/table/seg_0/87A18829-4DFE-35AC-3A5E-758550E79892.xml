@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87A18829-4DFE-35AC-3A5E-758550E79892" schemaObject="97246539-621B-7AA7-7754-9B28766B5C1E" name="MTP_DW_APPOINTMENT">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MTP_DW_APPOINTMENT</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APPOINTMENT_ID" id="BA254E44-0D92-E0F4-0D8F-29A6A7303465">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_APPOINTMENT</sourceObjSchema>
+<sourceObjName>APPOINTMENT_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPOINTMENT_DATE" id="E1CF35BE-725F-31BE-D7A4-9E6F5E56D105">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_APPOINTMENT</sourceObjSchema>
+<sourceObjName>APPOINTMENT_DATE</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_ID" id="E62755FB-37D3-E4F1-0608-95A38845E7A7">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_APPOINTMENT</sourceObjSchema>
+<sourceObjName>PATIENT_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62E4BC0D-BAC3-55BD-C76B-F1E35AB96F6C" referredColumn="24E86FE8-D834-6F78-2FFF-677AEA4774AF"/>
+</associations>
+</Column>
+<Column name="PROCEDURE_ID" id="87E799E8-BD00-2795-766B-8BE78F8B4622">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_APPOINTMENT</sourceObjSchema>
+<sourceObjName>PROCEDURE_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A26174DF-787C-2C9C-814E-32F3479B928B" referredColumn="1F88ED1C-1CB6-21DC-E0FA-84BE3B73E659"/>
+</associations>
+</Column>
+<Column name="STAFF_ID" id="5ADA4117-C499-58BA-E8B6-570CFE7C7082">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_APPOINTMENT</sourceObjSchema>
+<sourceObjName>STAFF_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57977715-0566-A743-32CE-07A40F5590BA" referredColumn="EF167936-F24E-AABB-751C-85EE20676CA2"/>
+</associations>
+</Column>
+<Column name="TIME_ID" id="647AF21A-4FD8-3ED7-FA0D-DBCDA4BE9888">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_APPOINTMENT</sourceObjSchema>
+<sourceObjName>TIME_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D8DD516-6B17-7FEA-307D-D6161D3DA2F1" referredColumn="8FECDDD3-9068-F583-28DA-C7BB1E11856E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C683C252-FF7E-4842-8623-D1F0C34DFF07" schemaObject="97246539-621B-7AA7-7754-9B28766B5C1E" name="MTP_DW_APPOINTMENT_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C009702</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA254E44-0D92-E0F4-0D8F-29A6A7303465"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48F21912-2B83-BCB2-CF69-08874A66632F" name="SYS_C009703">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E62755FB-37D3-E4F1-0608-95A38845E7A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5509BE8A-7E61-7FEE-EF26-1D9391BA286F" name="SYS_C009704">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87E799E8-BD00-2795-766B-8BE78F8B4622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96BDAA40-0C08-7C71-78F4-907AA9B53F51" name="SYS_C009705">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADA4117-C499-58BA-E8B6-570CFE7C7082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0F21810-56B5-83E6-DB99-046F856F5879" name="SYS_C009706">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="647AF21A-4FD8-3ED7-FA0D-DBCDA4BE9888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

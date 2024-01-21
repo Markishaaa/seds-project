@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4D58CA1-BDB1-9ECE-33F5-B2CDDCE76FED" schemaObject="97246539-621B-7AA7-7754-9B28766B5C1E" name="MTP_DW_DEPARTMENT_AND_ROLES">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MTP_DW_DEPARTMENT_AND_ROLES</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STAFF_ID" id="EF167936-F24E-AABB-751C-85EE20676CA2">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_DEPARTMENT_AND_ROLES</sourceObjSchema>
+<sourceObjName>STAFF_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFF_ROLE" id="E34D5A78-D635-A1D9-C743-E893EFF8216D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_DEPARTMENT_AND_ROLES</sourceObjSchema>
+<sourceObjName>STAFF_ROLE</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_NAME" id="B9116C6A-CAF7-C532-8F7A-2566A94E573A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_DEPARTMENT_AND_ROLES</sourceObjSchema>
+<sourceObjName>DEPT_NAME</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3952A6E4-4FEF-9F12-A983-46F96EB0F5C7" schemaObject="97246539-621B-7AA7-7754-9B28766B5C1E" name="MTP_DW_DEPARTMENT_AND_ROLES_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C009700</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF167936-F24E-AABB-751C-85EE20676CA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

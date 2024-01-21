@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_SRC_CITY" directorySegmentName="seg_0" id="2B9BB278-CB77-2FF3-0290-2C36D8969434">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:51 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7A34197-296A-F625-2AEC-A108003593D0</segment>
+<tableSpace>33A7F2CC-4595-C2AC-4783-84523CB66CF3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="9FC38416-E56C-22D6-500E-91373E2138D0">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY_ID" id="C032AC5F-352D-BF0B-EA69-BBB89210D034">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY_NAME" id="FC8C56B7-9B56-15C1-1B00-F07FDD8BE65E">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008749" id="852B7EDD-B2BC-6304-E05A-6264803EC33F">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_SRC_CITY_PK" id="00FAB5A0-4A46-F6E7-8C1F-69137B33B0E6">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<schemaObject>4F8B652B-9E79-1B06-164A-667E9A8E4D71</schemaObject>
+<segment>3DEF88F8-CD65-E5C6-2FEF-795FCBFA5050</segment>
+<tableSpace>33A7F2CC-4595-C2AC-4783-84523CB66CF3</tableSpace>
+<indexSegment>3DEF88F8-CD65-E5C6-2FEF-795FCBFA5050</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

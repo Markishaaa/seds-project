@@ -1,0 +1,232 @@
+A1C test
+Abdominal delivery
+Abdominal hysterectomy
+Abdominal ultrasound
+Abdominoplasty
+Ablation therapy
+Ablation, cardiac
+Active surveillance for prostate cancer
+Acupuncture
+Adrenalectomy
+Allergen immunotherapy
+Allergy shots
+Allergy skin tests
+Allogeneic stem cell transplant
+alpha-Synuclein seed amplification assay
+Amniocentesis
+ANA test
+Anesthesia, general
+Angiogram, coronary
+Ankle surgery
+Ankle-brachial index
+Annuloplasty
+Antinuclear antibody (ANA) test
+Aortic root surgery
+Aortic valve repair and aortic valve replacement
+Arthroscopy
+Assistive technology for spinal cord injury
+Atrial fibrillation ablation
+Atrial flutter ablation
+Autologous bone marrow transplant
+Autologous stem cell transplant
+AV node ablation
+Awake brain surgery
+Awake craniotomy
+Balloon angioplasty and stenting
+Bariatric surgery
+Barium enema
+Basal body temperature
+Bilateral hand transplant
+Biliopancreatic diversion with duodenal switch (BPD/DS)
+Bilirubin test
+Biofeedback
+Biological therapy for cancer
+Biopsy, bone marrow
+Biopsy, breast
+Biopsy, kidney
+Biopsy, needle
+Biopsy, prostate
+Biopsy, skin
+Birth control patch
+Bladder removal surgery (cystectomy)
+Blepharoplasty
+Blood donation
+Blood donation
+Blood pressure monitoring
+Blood pressure reading
+Blood pressure test
+Blood transfusion
+Blood urea nitrogen (BUN) test
+Body contouring
+Bone density test
+Bone marrow biopsy
+Bone marrow collection
+Bone marrow donation
+Bone marrow harvesting
+Bone marrow transplant
+Bone marrow transplant, allogeneic
+Bone marrow transplant, autologous
+Bone scan
+Botox injections
+BPDDS
+Brachytherapy
+Brain rehabilitation
+Brain stereotactic radiosurgery
+Brain surgery, awake
+BRCA gene test
+BRCA gene test for breast and ovarian cancer risk
+Breast augmentation
+Breast biopsy
+Breast cancer chemotherapy
+Breast cancer risk assessment
+Breast cancer screening
+Breast cancer supportive therapy and survivorship
+Breast cancer surgery
+Breast lift
+Breast MRI
+Breast reconstruction with flap surgery
+Breast reconstruction with implants
+Breast reduction surgery
+Breast self-exam
+Breast self-exam for breast awareness
+Breast tomosynthesis
+Bronchoscopy
+Brow lift
+BUN test
+Buttock lift
+CA 125 test
+CABG
+Calendar method for natural family planning
+Canalith repositioning procedure
+Cancer rehabilitation
+Cancer treatment
+Capsule endoscopy
+Capsule enteroscopy
+Cardiac ablation
+Cardiac calcium scoring CT
+Cardiac catheterization
+Cardiac rehabilitation
+Cardiac resynchronization therapy
+Cardioversion
+Carotid angioplasty and stenting
+Carotid endarterectomy
+Carotid ultrasound
+CAT scan
+Cataract surgery
+Catheter ablation
+CBC
+CBT
+Cervical spine surgery, child
+Cervicoplasty
+Cesarean section
+Chemical peel
+Chemotherapy
+Chemotherapy for breast cancer
+Chest X-rays
+Chiropractic adjustment
+Cholecystectomy (gallbladder removal)
+Cholescintigraphy
+Cholesterol test
+Choline C-11 PET scan
+Circumcision (male)
+Cochlear implants
+Cognitive behavioral therapy
+Colectomy
+Cologuard test
+Colonoscopy
+Colposcopy
+Combination birth control pills
+Complementary and alternative medicine
+Complete blood count (CBC)
+Complete cholesterol test
+Computer-assisted brain surgery
+Computerized tomography
+Computerized tomography (CT) urogram
+Computerized tomography coronary angiogram
+Computerized tomography urogram
+Concussion testing and screening tools
+Contraceptive implant
+Convalescent plasma therapy
+Copper intrauterine device method
+Copper IUD (ParaGard)
+Cornea transplant
+Coronary angiogram
+Coronary angioplasty and stents
+Coronary artery bypass graft
+Coronary artery bypass surgery
+Coronary artery calcium (CAC) test
+Coronary calcium CT scan
+Coronary calcium scan
+Coronary CT angiogram
+Coronavirus disease 2019 antibody testing
+Coronavirus disease 2019 diagnostic testing
+Cortisone shots
+Cosmetic ear surgery
+Cosmetic surgery
+COVID-19 antibody testing
+COVID-19 serology testing
+COVID-19 tests
+C-reactive protein test
+Creatinine test
+CRP test
+Cryoablation for cancer
+Cryotherapy for cancer
+Cryotherapy for prostate cancer
+C-section
+CT coronary angiogram
+CT scan
+Cystectomy
+Cystoscopy
+Cystourethroscopy
+Cytochrome P450 (CYP450) genotyping test
+Cytochrome P450 tests
+Gallbladder removal
+Gamma-knife radiosurgery
+Gastric bypass (Roux-en-Y)
+Gene therapy
+General anesthesia
+Genetic testing
+Glucose challenge test
+Glucose tolerance test
+Glycated hemoglobin test
+Glycosylated hemoglobin test
+Pacemaker
+Packed-cell volume
+Palliative care
+Pancreas transplant
+Pancreatoduodenectomy
+Pap smear
+Parathyroidectomy
+Parkinson's test
+PCNL
+Pediatric cervical spine surgery
+Pelvic exam
+Penile implants
+Penis pump
+Percutaneous coronary intervention
+Percutaneous nephrolithotomy
+Peripherally inserted central catheter (PICC) line
+Peritoneal dialysis
+PET scan
+Photodynamic therapy
+PICC line
+Polysomnography (sleep study)
+Positron emission tomography scan
+Precision medicine for breast cancer
+Preemptive kidney transplant
+Progestin-only birth control pill
+Prostate biopsy
+Prostate brachytherapy
+Prostate laser surgery
+Prostatectomy
+Prostate-specific antigen test
+Prothrombin time test
+Proton beam therapy
+Proton therapy
+PSA test
+Psychotherapy
+Pulmonary valve repair and replacement
+Pulmonary vein isolation
+Pulmonary vein isolation ablation
+3D conformal radiation
+3D mammogram

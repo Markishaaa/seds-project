@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_SRC_ORGANIZATION" directorySegmentName="seg_0" id="89B5731E-A87D-92A8-F26F-2EAF584A4181">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:51 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7A34197-296A-F625-2AEC-A108003593D0</segment>
+<tableSpace>33A7F2CC-4595-C2AC-4783-84523CB66CF3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ORG_PHONE" id="004C4AC7-D4D9-0E4F-A144-A695890FC085">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORG_ADDRESS" id="7AC5024A-FD6E-FC1C-78E4-CBA85F164EEE">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORG_ID" id="8EAD26BD-22A4-8343-7CEF-785EF28A8304">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORG_NAME" id="8FFBAA7E-C108-72A9-01FB-8864291E1904">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_SRC_ORGANIZATION_PK" id="473E5070-EDCD-3EE7-24B1-22745014CCA8">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<schemaObject>4F8B652B-9E79-1B06-164A-667E9A8E4D71</schemaObject>
+<segment>3DEF88F8-CD65-E5C6-2FEF-795FCBFA5050</segment>
+<tableSpace>33A7F2CC-4595-C2AC-4783-84523CB66CF3</tableSpace>
+<indexSegment>3DEF88F8-CD65-E5C6-2FEF-795FCBFA5050</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

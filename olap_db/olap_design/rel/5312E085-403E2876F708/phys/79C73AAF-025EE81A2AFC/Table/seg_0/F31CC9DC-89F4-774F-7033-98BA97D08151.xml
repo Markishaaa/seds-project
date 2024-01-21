@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_DW_COUNTRY" directorySegmentName="seg_0" id="F31CC9DC-89F4-774F-7033-98BA97D08151">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AD6FAC45-446E-4E02-0880-3D8117876B06</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COUNTRY_ID" id="0D10B9DB-44D9-62D1-44B1-BAA0FDFB0F34">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<defaultValue>&quot;SYSTEM&quot;.&quot;COUNTRY_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY_NAME" id="57D89E33-0080-031B-CEF0-6834FB834867">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_DW_COUNTRY_PK" id="F4B6927C-4B57-BA8D-170F-870A11AB11AC">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<segment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<indexSegment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

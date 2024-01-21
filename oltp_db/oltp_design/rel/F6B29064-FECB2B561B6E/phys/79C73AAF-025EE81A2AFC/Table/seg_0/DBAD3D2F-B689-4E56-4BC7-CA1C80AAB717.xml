@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_SRC_APPOINTMENT" directorySegmentName="seg_0" id="DBAD3D2F-B689-4E56-4BC7-CA1C80AAB717">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:51 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7A34197-296A-F625-2AEC-A108003593D0</segment>
+<tableSpace>33A7F2CC-4595-C2AC-4783-84523CB66CF3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROCEDURE_ID" id="0023D56B-B2C6-C82F-463B-446DF8D187EB">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PATIENT_ID" id="80A2982B-746D-9B2F-6474-E9F2CE057309">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPOINTMENT_ID" id="C02E527C-B77C-AEC3-0FD6-5632A5E65769">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPOINTMENT_DATE" id="C3C4F677-0560-454C-B00E-6DBC717AF35A">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAFF_ID" id="C52B949D-1039-77BA-ED8F-73D0943065AC">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008762" id="5438EF55-33C7-B5B0-6339-227640C63804">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008764" id="77348002-D0FD-EE1E-4FB3-66E03FDC56C6">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008763" id="D848EF6B-43ED-907C-0AEA-C4421911D5C1">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_SRC_APPOINTMENT_PK" id="7A4CEF79-411C-2527-82A9-B8A853C66BBA">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<schemaObject>4F8B652B-9E79-1B06-164A-667E9A8E4D71</schemaObject>
+<segment>3DEF88F8-CD65-E5C6-2FEF-795FCBFA5050</segment>
+<tableSpace>33A7F2CC-4595-C2AC-4783-84523CB66CF3</tableSpace>
+<indexSegment>3DEF88F8-CD65-E5C6-2FEF-795FCBFA5050</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

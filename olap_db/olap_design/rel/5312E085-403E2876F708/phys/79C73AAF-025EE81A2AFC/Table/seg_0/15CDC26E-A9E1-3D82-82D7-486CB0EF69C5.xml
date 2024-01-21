@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_DW_TIME" directorySegmentName="seg_0" id="15CDC26E-A9E1-3D82-82D7-486CB0EF69C5">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AD6FAC45-446E-4E02-0880-3D8117876B06</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DAY_IN_YEAR" id="2772E829-7594-7170-6090-951ED48A04E3">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTH_IN_YEAR" id="61A490BB-79F2-B825-DC11-39217615F33E">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTH" id="67CBD19F-B7EF-1C60-1E25-0C70C660AEE6">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_ID" id="8FECDDD3-9068-F583-28DA-C7BB1E11856E">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FULL_DATE" id="9DBFF133-A73C-6171-0839-4899625D3FB6">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAY" id="AD6954CF-321E-C4F6-1ED9-B7D261CD69C8">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="DCB35C1C-880D-7119-5C4A-DC407CF54233">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_DW_TIME_PK" id="1F510E54-B5C9-B853-7AA1-9E16CDD098AA">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<segment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<indexSegment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

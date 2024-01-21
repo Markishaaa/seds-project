@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="344E9CF6-0DFF-B963-08C5-63987907AC90" name="MTP SRC CITY">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>2B9BB278-CB77-2FF3-0290-2C36D8969434</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CITY ID" id="02BCC097-8E02-50C4-FDCB-B0B5C073FC30">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>C032AC5F-352D-BF0B-EA69-BBB89210D034</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY NAME" id="B7FD54B0-E9C0-ACEC-5C00-52B9007B3C15">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>FC8C56B7-9B56-15C1-1B00-F07FDD8BE65E</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION ID" id="5889F2FC-628D-C6B2-9E79-12744BD48EFD">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>A5ABD199-FC13-4D64-D1CE-822621D382FC</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>85E2B70E-AFBE-BBAC-8D45-818374446551</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22A4285E-74DF-9E66-81A6-E104B1072937" name="MTP SRC CITY PK">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>00FAB5A0-4A46-F6E7-8C1F-69137B33B0E6</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02BCC097-8E02-50C4-FDCB-B0B5C073FC30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

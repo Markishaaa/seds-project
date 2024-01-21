@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E6A8503-3E5F-8581-08DF-E0CCA6DFCC4A" name="MTP SRC FACILITY">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>A341BE1A-45FA-B303-A590-4E90D1288CD6</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FACILITY ID" id="D9653186-BAC6-14EC-9DCE-BE8FC4738201">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>BD6178C4-A562-E8EF-2CF1-676FA9CE5BDA</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FACILITY NAME" id="7E4B2817-F94D-5C9C-7AFC-F9469331CB95">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>38B777C3-727C-9BE7-30C1-DC1FFD4A2AE8</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FACILITY LOCATION" id="06C36AE9-CF7A-7762-36EB-BABCDEB3F482">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>EE7156D0-DA30-09AD-6637-80C242280F13</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORG ID" id="74008B8E-7CC0-40B7-73FC-72AC4CE32DEC">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>1039C3F5-E505-BCB6-FC42-C3BD4876EDA7</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2F9AB70D-9D25-F5E0-8A53-722771749D0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY ID" id="C839D585-50C8-A548-6D58-A935FF482E21">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>A0D62FFE-BCD3-03CD-3860-8D42DCBF6108</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>02BCC097-8E02-50C4-FDCB-B0B5C073FC30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D40AFF2-D0D3-D31F-6016-E01C46812976" name="MTP SRC FACILITY PK">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>001543F4-7530-964F-8E50-A5609B550F45</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9653186-BAC6-14EC-9DCE-BE8FC4738201</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

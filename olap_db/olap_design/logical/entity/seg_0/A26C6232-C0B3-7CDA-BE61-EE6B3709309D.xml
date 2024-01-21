@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A26C6232-C0B3-7CDA-BE61-EE6B3709309D" name="MTP DW PROCEDURE">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>1FFF8C28-CBE2-85C3-75DE-16FA5E45FE59</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROCEDURE ID" id="E2B7C614-3035-0238-46DB-E718F8A4E0DD">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>1F88ED1C-1CB6-21DC-E0FA-84BE3B73E659</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROCEDURE NAME" id="9CA6CC39-8D33-8DB7-4D5C-4554431BEDD4">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>5FBBC7F3-2813-5FC2-4E46-FB7E0A7D8B50</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROCEDURE COST" id="557AB59E-6AF0-83E3-E0BD-429857BEF587">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>5E460032-C72A-F3AE-FEE5-5B9A94B13D22</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F4318EC-7AFA-F890-5FD0-7C493CD5596C" name="MTP DW PROCEDURE PK">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:05:29 UTC</createdTime>
+<generatorID>AC0FBF79-8D58-1F05-99D4-8D90B803FB9F</generatorID>
+<ownerDesignName>olap_design</ownerDesignName>
+<engineerTo>
+<item key="5312E085-480C-9AFD-70C4-403E2876F708" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2B7C614-3035-0238-46DB-E718F8A4E0DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

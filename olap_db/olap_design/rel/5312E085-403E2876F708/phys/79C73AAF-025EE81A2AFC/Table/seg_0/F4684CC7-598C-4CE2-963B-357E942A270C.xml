@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_DW_CITY" directorySegmentName="seg_0" id="F4684CC7-598C-4CE2-963B-357E942A270C">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AD6FAC45-446E-4E02-0880-3D8117876B06</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="7799F7EA-21B0-7480-B9A0-AAF9FD8B9265">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY_NAME" id="960C21BB-D6FB-38F3-859F-2F1B6A50E572">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY_ID" id="CBD226BE-FAE6-358D-5F9A-68A82D75ABBA">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C009676" id="1EF0F704-4277-683E-01EF-F2F35167D51E">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_DW_CITY_PK" id="2F66AB1F-5322-0E0C-A7E6-350CEE78B923">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<segment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<indexSegment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

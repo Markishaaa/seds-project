@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A99EF9D2-424C-B6A5-A05B-A672E0E5C0A2" schemaObject="97246539-621B-7AA7-7754-9B28766B5C1E" name="MTP_DW_REGION">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MTP_DW_REGION</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGION_ID" id="B3FFDCE9-485A-9763-B5BC-4148BC6AF57D">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_REGION</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_NAME" id="58EFF6F0-8342-09DF-5B19-0D94E5DDFB1A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_REGION</sourceObjSchema>
+<sourceObjName>REG_NAME</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_ID" id="68441795-4CE8-74CA-4233-84A41329CC0C">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_REGION</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E9F1CEC-C80D-FAE4-DF7C-498CEFB95738" referredColumn="0D10B9DB-44D9-62D1-44B1-BAA0FDFB0F34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C81937C-4079-A400-5ADC-39E039AE4A01" schemaObject="97246539-621B-7AA7-7754-9B28766B5C1E" name="MTP_DW_REGION_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C009672</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3FFDCE9-485A-9763-B5BC-4148BC6AF57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26130874-8A50-C181-F7F9-A70CFD56C39B" name="SYS_C009673">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68441795-4CE8-74CA-4233-84A41329CC0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

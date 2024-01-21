@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5AFBBE5-4B64-AA07-1699-06384F1A9A9F" name="MTP SRC APPOINTMENT">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>DBAD3D2F-B689-4E56-4BC7-CA1C80AAB717</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="APPOINTMENT ID" id="6F4E85B0-1E6F-F3CD-6AB1-55C82942D71A">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>C02E527C-B77C-AEC3-0FD6-5632A5E65769</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APPOINTMENT DATE" id="96D84B5B-2B03-4F85-CDD4-2E274D0A599E">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>C3C4F677-0560-454C-B00E-6DBC717AF35A</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PATIENT ID" id="23AA80A9-6107-3760-3BFF-A9B8EBEA86B9">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>31F465E8-2888-7549-D31F-2131F2508549</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7B43A5C1-1CB1-9306-FB2D-F2A684F5F2EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STAFF ID" id="FCC7C207-0C91-40E6-576E-40ED2E28E996">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>ADF1E989-22D1-74CA-E99E-827A3957D75E</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A4D33D31-2B36-30E2-C524-527E74E0E67A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROCEDURE ID" id="DAA479E6-3F0F-6C72-B034-E3D335992E42">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>918E9BAF-4406-83AC-C31C-A80C8C6B4917</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C570DACB-0B36-FA41-EF18-DF26623EFDE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68B143D9-7D8F-6878-8C7C-2881A55FF942" name="MTP SRC APPOINTMENT PK">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:26:56 UTC</createdTime>
+<generatorID>7A4CEF79-411C-2527-82A9-B8A853C66BBA</generatorID>
+<ownerDesignName>oltp_design</ownerDesignName>
+<engineerTo>
+<item key="F6B29064-DF2E-1F19-7B71-FECB2B561B6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F4E85B0-1E6F-F3CD-6AB1-55C82942D71A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

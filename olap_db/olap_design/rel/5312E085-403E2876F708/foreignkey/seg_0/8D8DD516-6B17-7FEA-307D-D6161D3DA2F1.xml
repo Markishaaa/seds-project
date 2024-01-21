@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D8DD516-6B17-7FEA-307D-D6161D3DA2F1" containerWithKeyObject="87A18829-4DFE-35AC-3A5E-758550E79892" localFKIndex="E0F21810-56B5-83E6-DB99-046F856F5879" name="SYS_C009706">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C009706</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<referredTableLongName>SYSTEM.MTP_DW_TIME</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>15CDC26E-A9E1-3D82-82D7-486CB0EF69C5</referredTableID>
+<keyObject>1F510E54-B5C9-B853-7AA1-9E16CDD098AA</keyObject>
+<referredKeyID>1F510E54-B5C9-B853-7AA1-9E16CDD098AA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TIME_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BE4ABD1-9322-24F7-28C3-0341149C91D9" schemaObject="97246539-621B-7AA7-7754-9B28766B5C1E" name="MTP_DW_FACILITY">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MTP_DW_FACILITY</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FACILITY_ID" id="9091C0FA-E551-CA24-2AAB-138518206BEE">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_FACILITY</sourceObjSchema>
+<sourceObjName>FACILITY_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACILITY_NAME" id="5E09BE53-8D84-200F-56DA-C3B4E8799CE4">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_FACILITY</sourceObjSchema>
+<sourceObjName>FACILITY_NAME</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACILITY_LOCATION" id="7812AEF8-AD5C-CA98-45D1-B828BBB66441">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_FACILITY</sourceObjSchema>
+<sourceObjName>FACILITY_LOCATION</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY_ID" id="3531A636-5329-0223-706A-68977C2E4498">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_DW_FACILITY</sourceObjSchema>
+<sourceObjName>CITY_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE7DAF5C-1267-CFC3-3013-8E741F989210" referredColumn="CBD226BE-FAE6-358D-5F9A-68A82D75ABBA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF452161-5C49-BE60-73EB-0AD799969140" schemaObject="97246539-621B-7AA7-7754-9B28766B5C1E" name="MTP_DW_FACILITY_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C009696</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9091C0FA-E551-CA24-2AAB-138518206BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98A47138-B40C-8EE3-E91F-32C3A9680818" name="SYS_C009697">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3531A636-5329-0223-706A-68977C2E4498"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

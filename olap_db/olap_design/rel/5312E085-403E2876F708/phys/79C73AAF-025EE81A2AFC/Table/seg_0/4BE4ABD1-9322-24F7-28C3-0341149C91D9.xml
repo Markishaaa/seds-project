@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_DW_FACILITY" directorySegmentName="seg_0" id="4BE4ABD1-9322-24F7-28C3-0341149C91D9">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AD6FAC45-446E-4E02-0880-3D8117876B06</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CITY_ID" id="3531A636-5329-0223-706A-68977C2E4498">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACILITY_NAME" id="5E09BE53-8D84-200F-56DA-C3B4E8799CE4">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACILITY_LOCATION" id="7812AEF8-AD5C-CA98-45D1-B828BBB66441">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACILITY_ID" id="9091C0FA-E551-CA24-2AAB-138518206BEE">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C009697" id="98A47138-B40C-8EE3-E91F-32C3A9680818">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_DW_FACILITY_PK" id="EF452161-5C49-BE60-73EB-0AD799969140">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-21 16:04:23 UTC</createdTime>
+<ownerDesignName>olap_design</ownerDesignName>
+<schemaObject>97246539-621B-7AA7-7754-9B28766B5C1E</schemaObject>
+<segment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</segment>
+<tableSpace>255EA956-4E1D-C837-AE04-6B4A4DA4D737</tableSpace>
+<indexSegment>B12DCA67-B6CD-CA8A-6804-818366BBC39E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

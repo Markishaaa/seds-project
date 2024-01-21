@@ -1,0 +1,101 @@
+org_id,org_name,org_address,org_phone
+1,Wockhardt Limited,66895 Corben Park,+62 (423) 156-1859
+2,Wagner Welding Supply,3063 Onsgard Street,+86 (929) 737-1958
+3,Kroger Co,29170 Northland Hill,+66 (340) 211-0119
+4,Teva Pharmaceuticals USA Inc,076 Boyd Way,+855 (175) 809-8520
+5,Sun Products Corporation,5597 Novick Crossing,+7 (472) 758-6176
+6,"PD-Rx Pharmaceuticals, Inc.",82 Hanson Crossing,+54 (769) 383-1416
+7,"BioZone Laboratories, Inc.",1 Sherman Terrace,+7 (999) 549-1924
+8,"Aphena Pharma Solutions - Tennessee, Inc.",575 Golden Leaf Plaza,+82 (437) 172-5232
+9,"Watson Laboratories, Inc.",624 Carberry Court,+81 (351) 540-5329
+10,Rebel Distributors Corp,1941 Lerdahl Park,+351 (194) 366-8103
+11,Procter & Gamble Manufacturing Co.,57 Caliangt Alley,+420 (912) 455-7327
+12,SHISEIDO AMERICA INC.,6031 Monument Alley,+260 (161) 131-9746
+13,Sun Pharmaceutical Industries Limited,321 Ridge Oak Pass,+351 (339) 570-7330
+14,TYA Pharmaceuticals,422 Dayton Crossing,+86 (197) 957-3840
+15,RedPharm Drug Inc.,94 West Circle,+62 (264) 262-6529
+16,"SJ Creations, Inc.",01 Moulton Crossing,+86 (722) 710-2267
+17,"ALK-Abello, Inc.",22 Brentwood Way,+7 (430) 378-7632
+18,"Akorn, Inc.",891 Prairieview Avenue,+63 (510) 392-6978
+19,Conopco Inc. d/b/a Unilever,566 Moland Trail,+63 (845) 539-6069
+20,REMEDYREPACK INC.,244 Washington Plaza,+62 (141) 161-5455
+21,Conopco Inc. d/b/a Unilever,72 Hermina Point,+33 (405) 299-0618
+22,"WG Critical Care, LLC",29887 Graceland Street,+48 (776) 606-3575
+23,Ulta,8 Springview Pass,+64 (432) 713-1015
+24,"Meditrend, Inc. DBA Progena Professional Formulations",713 Northland Center,+234 (312) 616-7789
+25,Genuine Virgin Aloe Corporation,34 Jenna Road,+1 (616) 147-0178
+26,Procter & Gamble Manufacturing Co.,97 Warner Point,+86 (949) 208-9796
+27,"Natural Creations, Inc.",6849 Esker Pass,+53 (982) 410-8316
+28,Boggs Gases div. Boggs Fire Equipment,6 Scofield Street,+62 (746) 713-9019
+29,Golden State Medical Supply,81252 Artisan Pass,+66 (548) 113-0888
+30,"NCS HealthCare of KY, Inc dba Vangard Labs",8427 Sage Plaza,+86 (256) 643-2805
+31,Cardinal Health,78 Oak Parkway,+46 (598) 791-8887
+32,Rij Pharmaceutical Corporation,3 Manley Crossing,+62 (250) 228-3220
+33,Novartis Pharmaceuticals Corporation,411 Acker Court,+86 (249) 678-3491
+34,"Allergy Laboratories, Inc.",47 Thierer Way,+62 (406) 818-1552
+35,Chain Drug Marketing Association Inc.,20 Schlimgen Crossing,+687 (175) 311-7463
+36,"BPI Labs, LLC",6 Montana Point,+86 (775) 854-6078
+37,Prasco Laboratories,344 Westridge Alley,+7 (424) 256-5299
+38,Todd Horton DPM,86 Bowman Court,+84 (794) 934-4733
+39,BioActive Nutritional,66468 Hovde Street,+86 (716) 611-5996
+40,TOM FORD BEAUTY DIST,6 Moulton Pass,+967 (149) 649-3871
+41,Cardinal Health,0758 Bultman Street,+351 (472) 742-3826
+42,"Sucampo Pharma Americas, LLC",8 Linden Drive,+86 (692) 382-6374
+43,Teva Pharmaceuticals USA Inc,85 Saint Paul Park,+98 (419) 999-0654
+44,"ALK-Abello, Inc.",5 8th Parkway,+86 (482) 270-5760
+45,Supervalu Inc,45 Sommers Junction,+7 (108) 173-8470
+46,Uriel Pharmacy Inc.,05599 Prairie Rose Junction,+62 (735) 559-9050
+47,"PD-Rx Pharmaceuticals, Inc.",26060 Debra Road,+56 (700) 883-3790
+48,"Aphena Pharma Solutions - Tennessee, LLC",2418 Longview Hill,+44 (162) 918-5680
+49,McKesson,5 Coleman Parkway,+55 (978) 157-9208
+50,Qualitest Pharmaceuticals,7166 Wayridge Avenue,+234 (673) 977-2913
+51,"Jets, Sets, & Elephants Beauty Corp.",0651 Bellgrove Way,+57 (240) 920-3552
+52,"KVK-TECH, Inc.",992 Mcbride Place,+212 (499) 180-5880
+53,SHISEIDO AMERICAS CORPORATION,7248 Farragut Center,+55 (980) 393-0845
+54,Mylan Pharmaceuticals Inc.,95 Rowland Point,+351 (810) 735-7945
+55,Shire US Manufacturing Inc.,53011 Sunnyside Circle,+84 (168) 265-4913
+56,Northstar RxLLC,92097 Claremont Alley,+691 (697) 797-5720
+57,Kroger,214 Kensington Parkway,+7 (953) 346-4446
+58,AbbVie Inc.,80058 Monterey Street,+212 (669) 455-6884
+59,L Perrigo Company,0 Fairview Drive,+20 (836) 969-1682
+60,Navajo Manufacturing Company Inc,2651 Northview Point,+51 (142) 942-1327
+61,"Fresenius Kabi USA, LLC",29 Twin Pines Crossing,+62 (320) 185-2940
+62,Rebel Distributors Corp,1 Talisman Crossing,+506 (554) 433-9524
+63,"Pro-Link, Inc.",0486 Marcy Point,+386 (339) 300-3498
+64,Bryant Ranch Prepack,97505 Bowman Plaza,+598 (854) 200-9781
+65,Cardinal Health,02617 Kinsman Crossing,+380 (884) 996-1961
+66,Apotheca Company,9277 Mandrake Place,+62 (123) 120-9000
+67,"Medline Industries, Inc.",7574 Farragut Lane,+380 (712) 915-9436
+68,Ranbaxy Pharmaceuticals Inc.,1638 Dovetail Drive,+62 (279) 342-7051
+69,"G.S. COSMECEUTICAL USA, INC.",38203 Stang Park,+86 (108) 502-5560
+70,"Mallinckrodt, Inc.",1083 Mariners Cove Circle,+86 (210) 880-5848
+71,REMEDYREPACK INC.,9359 Dwight Street,+55 (574) 634-1038
+72,"Acella Pharmaceuticals, LLC",543 Paget Place,+62 (107) 295-1606
+73,Ulta,34201 Jenifer Road,+62 (580) 177-1350
+74,"Smith's Drugs fo Forest City, Inc. dba Smith Drugs",2617 Hollow Ridge Court,+381 (724) 181-6595
+75,American Health Packaging,334 Evergreen Place,+62 (792) 391-6748
+76,REMEDYREPACK INC.,3 Sugar Court,+250 (455) 575-4138
+77,Wakefern Food Corporation,28 Esker Place,+57 (703) 688-8321
+78,ANIP Acquisition Company,9 Dahle Street,+81 (172) 278-5237
+79,"Lannett Company, Inc.",43955 Upham Terrace,+86 (268) 202-6352
+80,"IGI Labs, Inc.",26 Golden Leaf Avenue,+86 (239) 212-9733
+81,"Elizabeth Arden, Inc",66353 Pond Street,+86 (954) 296-2550
+82,"Taro Pharmaceuticals U.S.A., Inc.",72 Bellgrove Junction,+48 (113) 175-6925
+83,Procter & Gamble Manufacturing Company,18 Tony Parkway,+1 (412) 455-9629
+84,Rebel Distributors Corp,56735 Lake View Junction,+86 (124) 491-4350
+85,Natural Health Supply,6 South Way,+93 (925) 823-7181
+86,"Nelco Laboratories, Inc.",04 Upham Junction,+250 (620) 822-8269
+87,Carilion Materials Management,52923 Porter Way,+389 (483) 810-1127
+88,"Watson Laboratories, Inc.",1 Cordelia Alley,+46 (889) 987-4960
+89,"ALK-Abello, Inc.",02780 Vidon Center,+62 (888) 906-6105
+90,Dolgencorp Inc,155 High Crossing Hill,+86 (495) 922-2331
+91,"General Injectables & Vaccines, Inc",1596 Dottie Place,+62 (703) 469-0305
+92,Supervalu Inc,50211 Colorado Avenue,+48 (687) 947-7386
+93,"Covis Pharmaceuticals, Inc.",51661 Old Shore Plaza,+970 (757) 807-0726
+94,"Roxane Laboratories, Inc",49593 American Lane,+98 (287) 239-8534
+95,HyVee Inc,7 Reinke Circle,+994 (607) 680-0016
+96,"Physicians Total Care, Inc.",3 Onsgard Lane,+47 (472) 821-8686
+97,Meijer Distribution Inc,787 Superior Junction,+86 (337) 501-6887
+98,Strides Arcolab Limited,8992 Nancy Plaza,+86 (806) 429-4465
+99,Rebel Distributors Corp,7 Gulseth Plaza,+62 (878) 320-0995
+100,REMEDYREPACK INC.,9 Prairie Rose Center,+234 (253) 604-2772

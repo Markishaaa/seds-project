@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A341BE1A-45FA-B303-A590-4E90D1288CD6" name="MTP_SRC_FACILITY">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MTP_SRC_FACILITY</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:51 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FACILITY_ID" id="BD6178C4-A562-E8EF-2CF1-676FA9CE5BDA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_FACILITY</sourceObjSchema>
+<sourceObjName>FACILITY_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACILITY_NAME" id="38B777C3-727C-9BE7-30C1-DC1FFD4A2AE8">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_FACILITY</sourceObjSchema>
+<sourceObjName>FACILITY_NAME</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACILITY_LOCATION" id="EE7156D0-DA30-09AD-6637-80C242280F13">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_FACILITY</sourceObjSchema>
+<sourceObjName>FACILITY_LOCATION</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_ID" id="FA71D8BA-6CA1-6360-7D89-BD35B5A1DAFA">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_FACILITY</sourceObjSchema>
+<sourceObjName>ORG_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5DD19A1-7A06-6443-DDAC-08B455E67BF9" referredColumn="8EAD26BD-22A4-8343-7CEF-785EF28A8304"/>
+</associations>
+</Column>
+<Column name="CITY_ID" id="075020A7-2489-3957-E847-30C4FE89E383">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_FACILITY</sourceObjSchema>
+<sourceObjName>CITY_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F421F250-C26A-FF4B-7F1A-AB3D88A3F8CB" referredColumn="C032AC5F-352D-BF0B-EA69-BBB89210D034"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="001543F4-7530-964F-8E50-A5609B550F45" schemaObject="4F8B652B-9E79-1B06-164A-667E9A8E4D71" name="MTP_SRC_FACILITY_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008773</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD6178C4-A562-E8EF-2CF1-676FA9CE5BDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32B9062E-D6C9-77E2-E4E8-508FF00C8AC6" name="SYS_C008774">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA71D8BA-6CA1-6360-7D89-BD35B5A1DAFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1793A7E-1E08-9CF9-F35C-27205D7494C7" name="SYS_C008775">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="075020A7-2489-3957-E847-30C4FE89E383"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

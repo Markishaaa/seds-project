@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9B272DA-ABBF-6BDF-06C5-70FEA86A0EA2" containerWithKeyObject="DBAD3D2F-B689-4E56-4BC7-CA1C80AAB717" localFKIndex="77348002-D0FD-EE1E-4FB3-66E03FDC56C6" name="SYS_C008764">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008764</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<referredTableLongName>MTP_SRC_PROCEDURE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>451956CD-4F1A-1E9E-2B2F-BB4423D495E3</referredTableID>
+<keyObject>78BA96A6-5493-DF13-FA36-32FE9F629221</keyObject>
+<referredKeyID>78BA96A6-5493-DF13-FA36-32FE9F629221</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PROCEDURE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MTP_SRC_STAFF" directorySegmentName="seg_0" id="91BE67D8-38CA-E0A5-1251-A237A81D0EFE">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:51 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C7A34197-296A-F625-2AEC-A108003593D0</segment>
+<tableSpace>33A7F2CC-4595-C2AC-4783-84523CB66CF3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPT_ID" id="26940E3F-BADB-4E73-62D2-751A0C4CE986">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAFF_LAST_NAME" id="29AC89CF-97E0-681D-EA0C-B95BBA73569F">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAFF_ROLE" id="87867457-E332-C240-D609-80BCFF84292F">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAFF_FIRST_NAME" id="8E4CD89B-405B-5218-30DB-7B424250AF9F">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAFF_ID" id="B30C5F2C-A453-3A12-B5D9-2C2C0D1495BE">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008743" id="B2C18AB9-6336-E37F-C892-00184CF03A0D">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MTP_SRC_STAFF_PK" id="7FF3A483-0B3B-8690-9CCD-02517B08BA26">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<schemaObject>4F8B652B-9E79-1B06-164A-667E9A8E4D71</schemaObject>
+<segment>3DEF88F8-CD65-E5C6-2FEF-795FCBFA5050</segment>
+<tableSpace>33A7F2CC-4595-C2AC-4783-84523CB66CF3</tableSpace>
+<indexSegment>3DEF88F8-CD65-E5C6-2FEF-795FCBFA5050</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

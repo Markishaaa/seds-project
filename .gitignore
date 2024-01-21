@@ -1,0 +1,34 @@
+# Oracle Database Git Ignore
+
+# Database Dump Files
+*.dmp
+
+# Database Connection Configuration Files
+*.ora
+
+# Database Configuration Files
+init*.ora
+spfile*.ora
+
+# Temporary Files
+*.trc
+*.log
+
+# Database Scripts Output
+*.lst
+*.log
+
+# Database Cache and Lock Files
+*.bdb
+*.lck
+
+# Generated Database Scripts
+*.sql
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-*
+
+# Ignore swap files used by some text editors
+*.swp

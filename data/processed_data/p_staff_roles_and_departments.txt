@@ -1,0 +1,178 @@
+-Anesthesiology
+Anesthesiologist
+Anesthesiology Fellow
+Certified Registered Nurse Anesthetist
+Registered Respiratory Therapist
+Anesthesiologist Assistant
+-Cardiovascular medicine
+Cardiologist
+Cardiology Fellow
+Cardiology Physician Assistant
+Cardiac Scientist
+Cardiovascular Technologist
+-Critical care medicine
+Intensivist
+Neonatologist
+Critical Care Medicine Physician Assistant
+Critical Care Nurse Practitioner
+Critical Care Registered Nurse
+Critical Care Respiratory Therapist
+-Dentistry
+Dentist
+Dental Hygienist
+Dental Assistant
+Dental Technician
+-Dermatology
+Dermatologist
+Dermatology Physician Assistant
+-Dietetics
+Dietitian
+-Emergency medicine
+Emergency physician
+Emergency Physician Assistant
+Emergency Nurse Practitioner
+Flight Nurse
+Certified Emergency Nursing Assistant
+Certified Emergency Registered Nurse
+Certified Emergency Registered Respiratory Therapist
+Emergency Medical Technician - Critical Care Paramedic
+Emergency Medical Technician - Paramedic
+Emergency Medical Technician - Intermediate 99
+Emergency Medical Technician - Intermediate 85
+Emergency Medical Technician - Basic
+-Endocrinology
+Endocrinologist
+Endocrinology Physician Assistant
+-Gastroenterology
+Gastroenterologist
+Gastroenterology Physician Assistant
+-Genetics
+Genetic Counselor/Counsellor
+-Geriatric medicine
+Geriatrician
+Geriatric Medicine Physician Assistant
+Gerontological Nurse Practitioner
+Occupational Therapist
+-Haematology
+Haematologist
+Haematology Physician Assistant
+Medical Laboratory Technician
+Phlebotomist
+-Nephrology
+Nephrologist
+Nephrology Physician Assistant
+Dialysis Technician
+-Neurology
+Neurologist
+Neurology Physician assistant
+Occupational Therapist
+Speech Language Pathologist
+Audiologist
+Neuropsychologist
+-Oncology
+Oncologist
+Oncology Physician Assistant
+Radiation Therapist
+-Ophthalmology
+Ophthalmologist
+Eye Surgery
+-Optometry
+Optometrist
+Occupational Therapist- Low Vision Rehab
+-Otorhinolaryngology
+Otolaryngologist (Ear, Nose and Throat physician)
+Otorhinolaryngology Physician assistant
+-Pastoral care
+Healthcare Chaplain
+-Pathology
+Pathologist
+-Pulmonology (Respirology)
+Pulmonologist
+Pulmonology/Respirology Physician Assistant
+Registered Respiratory Therapist
+-Primary care medicine
+General practitioner
+Primary care physician
+Internist
+Physician assistant
+Family nurse practitioner
+Pharmacist
+Community Health practitioner
+-Pediatric medicine
+Neonatologist
+Pediatrician
+Pediatric Physician Assistant
+Neonatal Nurse Practitioner
+Pediatric Nurse Practitioner
+Occupational Therapist- Neonatal/ Pediatric
+Pediatric Nurse
+Pediatric Respiratory Therapist
+-Pharmacy
+Pharmacist
+Pharmacy technician
+-Podiatric medicine
+Podiatric Surgeon
+Doctor of Podiatric Medicine
+Podiatrist
+Chiropodist
+-Psychiatry
+Psychiatrist
+Psychiatry Physician Assistant
+Psychologist
+Psychiatric Nurse Practitioner
+Mental Health Nurse Practitioner
+Occupational Therapist
+Social Worker
+Mental Health Counselor
+-Public Health and Preventive Medicine
+Medical Officer of Health
+Environmental Health Officer
+Epidemiologist
+Public Health Nurse
+-Orthopedics, rheumatology, and movement
+Orthopedic Physician
+Orthopaedic Physician´s Assistant
+Sport Psychologist
+Physical Therapist
+Occupational Therapist
+Physical Therapy Assistant
+Occupational Therapy Assistant
+Orthopaedic Technologist or Prosthetist && Orthotist
+Chiropractor
+Biokineticist
+Athletic Trainer
+Yoga Instructor
+Massage Therapist
+-Radiology
+Radiologist
+Radiology Physician Assistant
+Radiotherapist, also known as a Radiation Therapist or Therapeutic Radiographer
+Radiographer, also known as a Radiologic Technologist
+CT Radiographer
+Interventional Radiographer
+Mammographer
+Neuroradiographer
+Medical Dosimetry Technologist
+Radiologist Practitioner Assistant
+Reporting Radiographer
+Sonographer
+-Reproductive medicine
+Obstetrician
+Gynaecologist
+OB/GYN Physician Assistant
+Women''s Health Nurse Practitioner
+Nurse-Midwife
+Midwife
+Lactation consultant
+-Surgery
+General Doctor
+Bariatric Surgeon
+Cardiothoracic surgeon
+Cardiac Surgeon
+Hepatic Biliary Pancreatic Surgeon
+Neurosurgeon
+Podiatric Surgeon
+Surgery Physician Assistant
+-Urology
+Urologist
+Urology Physician Assistant

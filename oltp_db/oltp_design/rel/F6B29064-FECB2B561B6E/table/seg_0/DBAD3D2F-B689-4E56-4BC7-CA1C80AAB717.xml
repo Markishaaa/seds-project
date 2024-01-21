@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBAD3D2F-B689-4E56-4BC7-CA1C80AAB717" name="MTP_SRC_APPOINTMENT">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>MTP_SRC_APPOINTMENT</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:51 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APPOINTMENT_ID" id="C02E527C-B77C-AEC3-0FD6-5632A5E65769">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_APPOINTMENT</sourceObjSchema>
+<sourceObjName>APPOINTMENT_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPOINTMENT_DATE" id="C3C4F677-0560-454C-B00E-6DBC717AF35A">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_APPOINTMENT</sourceObjSchema>
+<sourceObjName>APPOINTMENT_DATE</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_ID" id="80A2982B-746D-9B2F-6474-E9F2CE057309">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_APPOINTMENT</sourceObjSchema>
+<sourceObjName>PATIENT_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4F9DB8A-9819-480F-3E10-715374D448C9" referredColumn="584BFF53-3607-6445-4A69-769E00B1501D"/>
+</associations>
+</Column>
+<Column name="STAFF_ID" id="C52B949D-1039-77BA-ED8F-73D0943065AC">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_APPOINTMENT</sourceObjSchema>
+<sourceObjName>STAFF_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E812B8B-DC45-0CB5-8648-15A8CD2632C5" referredColumn="B30C5F2C-A453-3A12-B5D9-2C2C0D1495BE"/>
+</associations>
+</Column>
+<Column name="PROCEDURE_ID" id="0023D56B-B2C6-C82F-463B-446DF8D187EB">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>MTP_SRC_APPOINTMENT</sourceObjSchema>
+<sourceObjName>PROCEDURE_ID</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9B272DA-ABBF-6BDF-06C5-70FEA86A0EA2" referredColumn="47ABAE37-17D2-2CB8-B520-82DB828BDB97"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A4CEF79-411C-2527-82A9-B8A853C66BBA" schemaObject="4F8B652B-9E79-1B06-164A-667E9A8E4D71" name="MTP_SRC_APPOINTMENT_PK">
+<sourceConnName>local</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C008761</sourceObjName>
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C02E527C-B77C-AEC3-0FD6-5632A5E65769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5438EF55-33C7-B5B0-6339-227640C63804" name="SYS_C008762">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80A2982B-746D-9B2F-6474-E9F2CE057309"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D848EF6B-43ED-907C-0AEA-C4421911D5C1" name="SYS_C008763">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C52B949D-1039-77BA-ED8F-73D0943065AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77348002-D0FD-EE1E-4FB3-66E03FDC56C6" name="SYS_C008764">
+<createdBy>marko</createdBy>
+<createdTime>2024-01-20 20:21:52 UTC</createdTime>
+<ownerDesignName>oltp_design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0023D56B-B2C6-C82F-463B-446DF8D187EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
