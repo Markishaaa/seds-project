@@ -22,9 +22,6 @@ spfile*.ora
 *.bdb
 *.lck
 
-# Generated Database Scripts
-*.sql
-
 # IDE and Editor Files
 .idea/
 .vscode/
